@@ -14,9 +14,9 @@ Pre-req: You must have all images in one folder. Each image in dataset MUST have
     c. Add this line in Dataset section:
             desc += '-shoedata';             dataset = EasyDict(tfrecord_dir='tf_data'); train.mirror_augment = True
     d. In config presets section uncomment relevant line depending on number of GPUs you are using:
-        - desc += '-preset-v2-1gpu' => for 1 GPUs
-        - desc += '-preset-v2-4gpus' => for 4 GPUs
-        - desc += '-preset-v2-8gpus' => for 8 GPUs
+       - desc += '-preset-v2-1gpu' => for 1 GPUs
+       - desc += '-preset-v2-4gpus' => for 4 GPUs
+       - desc += '-preset-v2-8gpus' => for 8 GPUs
 
     Note: Feel free to explore other options depending on your requirement.
 
