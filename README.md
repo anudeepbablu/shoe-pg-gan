@@ -6,7 +6,7 @@ Pre-req: You must have all images in one folder. Each image in dataset MUST have
 2. Let's have dataset in 'data_files' folder. Our dataset has 16 categories. So I used 'Booties' to test pg-gan.
 3. Prepare dataset.
 ```bash
-    python dataset_tool.py create_from_images --shuffle 1 tf_data data_files/Booties
+    > python dataset_tool.py create_from_images --shuffle 1 tf_data data_files/Booties
 ```
 4. Edit 'config.py'. Make following changes:
     a. data_dir = ''
