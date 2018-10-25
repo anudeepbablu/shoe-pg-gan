@@ -24,4 +24,4 @@ Pre-req: You must have all images in one folder. Each image in dataset MUST have
 
 ## Troubleshooting:
 
-1. If you come across 'could not create cudnn handle: CUDNN_STATUS_INTERNAL_ERROR'. This indicated cudnn version is incompitble.
+1. If you come across 'could not create cudnn handle: CUDNN_STATUS_INTERNAL_ERROR'. This indicates cudnn version is incompatible.
