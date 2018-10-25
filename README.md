@@ -1,4 +1,4 @@
-##Instructions:
+## Instructions:
 
 Pre-req: You must have all images in one folder. Each image in dataset MUST have a resolution of 2 powers. E.g. 32x32, 64x64, 128x128, 256x256, 512x512.
 
@@ -22,6 +22,6 @@ python dataset_tool.py create_from_images --shuffle 1 tf_data data_files/Booties
 
 5. Run "python train.py"
 
-##Troubleshooting:
+## Troubleshooting:
 
 1. If you come across 'could not create cudnn handle: CUDNN_STATUS_INTERNAL_ERROR'. This indicated cudnn version is incompitble.
