@@ -12,7 +12,7 @@ python dataset_tool.py create_from_images --shuffle 1 tf_data data_files/Booties
     a. data_dir = ''
     b. result_dir = 'results'
     c. Add this line in Dataset section:
-        desc += '-shoedata';             dataset = EasyDict(tfrecord_dir='tf_data'); train.mirror_augment = True
+            desc += '-shoedata';             dataset = EasyDict(tfrecord_dir='tf_data'); train.mirror_augment = True
     d. In config presets section uncomment relevant line depending on number of GPUs you are using:
         - desc += '-preset-v2-1gpu' => for 1 GPUs
         - desc += '-preset-v2-4gpus' => for 4 GPUs
