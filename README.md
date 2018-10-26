@@ -1,5 +1,8 @@
 ## Instructions:
 
+### Link to progressive gan code:
+https://github.com/tkarras/progressive_growing_of_gans
+
 **Pre-req**: You must have all images in one folder. Each image in dataset MUST have a resolution of 2 powers. E.g. 32x32, 64x64, 128x128, 256x256, 512x512.
 
 **Note**: If you need to pre-process data, feel free to use "dataset_processing.ipynb" notebook. Follow comments in notebook on how to use.
