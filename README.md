@@ -2,9 +2,11 @@
 
 Pre-req: You must have all images in one folder. Each image in dataset MUST have a resolution of 2 powers. E.g. 32x32, 64x64, 128x128, 256x256, 512x512.
 
+Note: If you need to pre-process data, feel free to use "dataset_processing.ipynb" notebook. Follow comments in notebook on how to use.
+
 1. Run ./docker.sh
-2. Let's have dataset in 'data_files' folder. Our dataset has 16 categories. So I used 'Booties' to test pg-gan.
-3. Prepare dataset.
+2. Let's have dataset in 'data_files' folder. Our dataset has 16 categories. So I used 'Booties' category to test pg-gan.
+3. Prepare dataset. Following step will create a folder 'tf_data'
 ```bash
     > python dataset_tool.py create_from_images --shuffle 1 tf_data data_files/Booties
 ```
