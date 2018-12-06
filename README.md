@@ -27,6 +27,8 @@ https://github.com/tkarras/progressive_growing_of_gans
 
 5. Run "python train.py"
 
+(OPTIONAL)
+1. If you are trying to generate video of results. Make sure to install ImageMagick and GhostScripts(Will be adding detailed steps soon).
 ## Troubleshooting:
 
 1. If you come across 'could not create cudnn handle: CUDNN_STATUS_INTERNAL_ERROR'. This indicates cudnn version is incompatible.
